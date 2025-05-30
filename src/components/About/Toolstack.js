@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaAws } from "react-icons/fa";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -24,7 +25,7 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <FaAws />
       </Col>
     </Row>
   );
